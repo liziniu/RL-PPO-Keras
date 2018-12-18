@@ -6,20 +6,20 @@ This is an implementation of proximal policy optimization(PPO) algorithm with Ke
 
 Start an experiment:
 
-``python run_exp.py``
+``python main.py``
 
 ## Code
 
-* ``python run_exp.py``
+* ``run_exp.py``
 
-	Create environment and agent. Agent interacts and learns.
+	Create environment and agent. Agent interacts with enviornment and learns with samples.
 
-* ``memory.py``
+* ``config.py``
 
-   Memory includes FIFO and Prioritized Memory.
+   Configuration about agent, environment, experiment, and path.
 
 * ``ppo.py``
 
-    Build Agent with PPO algorithm. Define actor and critic network and how to train.
+    Implementation of PPO algorithm.
 
 
